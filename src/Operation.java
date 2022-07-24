@@ -1,6 +1,6 @@
 public class Operation {
     public static String lastOperation;
-    public static float Pi = 3;
+
 
     public static void chooseOperation (float value1,String operation, float value2){
 
@@ -82,7 +82,7 @@ public class Operation {
     }
 
     public static void AreaCircleCalculation(float value1,float value2){
-        Result.result = value1 * value1 * Pi;
+        Result.result = value1 * value1 * MathConctant.Pi;
     }
 
     public static void RootNCalculation(float value1,float value2){
